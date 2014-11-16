@@ -1,12 +1,12 @@
 'use strict';
 
-var homeModule = angular.module('app-home',[]);
 
-var mainModule = angular.module('app-main',['ui.router','ui.bootstrap','app-home']);
+angular.module('ts.main',['ui.bootstrap','ts.home','ts.task']);
 
-mainModule.config(function($stateProvider, $urlRouterProvider,$locationProvider) {
+angular.module('ts.main')
+.config(function($stateProvider, $urlRouterProvider,$locationProvider) {
     // For any unmatched url, redirect to /state1
-    $locationProvider.html5Mode(true);
+    /*$locationProvider.html5Mode(true);
      $urlRouterProvider.otherwise("/home");
      //
      // Now set up the states
@@ -15,8 +15,7 @@ mainModule.config(function($stateProvider, $urlRouterProvider,$locationProvider)
          url: "/home",
          templateUrl: "app/home/views/home.html",
          controller: 'HomeCtrl'
-       })
-
+       })*/
 });
 
 
