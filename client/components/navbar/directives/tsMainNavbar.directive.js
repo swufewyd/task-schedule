@@ -3,7 +3,7 @@
 *
 * Description
 */
-angular.module('ts.nav', []).directive('tsMainNav',  function(){
+angular.module('ts.navbar').directive('tsMainNavbar',  function(){
 	// Runs during compile
 	return {
 		// name: 'tsMainNav',
@@ -14,7 +14,7 @@ angular.module('ts.nav', []).directive('tsMainNav',  function(){
 		// require: 'ngModel', // Array = multiple requires, ? = optional, ^ = check parent elements
 		restrict: 'E', // E = Element, A = Attribute, C = Class, M = Comment
 		// template: '',
-		templateUrl: 'app/nav/views/main-nav.html',
+		templateUrl: 'components/navbar/views/main-navbar.html',
 		replace: true,
 		// transclude: true,
 		// compile: function(tElement, tAttrs, function transclude(function(scope, cloneLinkingFn){ return function linking(scope, elm, attrs){}})),

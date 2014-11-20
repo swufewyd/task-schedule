@@ -3,7 +3,7 @@
 *
 * Description
 */
-angular.module('ts.home', ['ui.router','ts.nav']);
+angular.module('ts.home', ['ui.router','ts.navbar','ts.circleMenu']);
 
 angular.module('ts.home')
 .config(function($stateProvider, $urlRouterProvider,$locationProvider) {

@@ -14,7 +14,7 @@
       <!-- bower:css -->
       <link rel="stylesheet" href="vendor/bootstrap/dist/css/bootstrap.css" />
       <link rel="stylesheet" href="vendor/font-awesome/font-awesome.min.css" />
-      
+      <!-- <link rel="stylesheet" href="components/circle-menu/views/circle-menu.css"> -->
       <!-- endbower -->
     <!-- endbuild -->
     <!-- build:css({.tmp,client}) app/app.css -->
@@ -64,14 +64,17 @@
           <!-- core -->
           <script src="app/home/home.module.js"></script>
           <script src="app/task/task.module.js"></script>
-          <!-- common -->
-          <script src="app/nav/nav.module.js"></script>
+          <!-- components -->
+          <script src="components/navbar/navbar.module.js"></script>
+          <script src="components/circle-menu/circleMenu.module.js"></script>
           <!-- home -->
           <script src="app/home/controllers/home.controller.js"></script>
           <!-- task -->
           
-          <!-- nav -->
-          <script src="app/nav/directives/tsMainNav.directive.js"></script>
+          <!-- navbar -->
+          <script src="components/navbar/directives/tsMainNavbar.directive.js"></script>
+          <!-- circle-menu -->
+          <script src="components/circle-menu/directives/tsCircleMenu.directive.js"></script>
           <!--<script src="app/main/main.js"></script>-->
           <!-- <script src="components/navbar/navbar.controller.js"></script>
           // <script src="components/socket/socket.service.js"></script> -->

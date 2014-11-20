@@ -3,4 +3,4 @@
 *
 * Description
 */
-angular.module('ts.nav', []);
+angular.module('ts.navbar', []);
